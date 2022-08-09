@@ -13,7 +13,13 @@
          .danger {
             border: 2px solid red;
         }
-    </style>
+    </style> 
+    <script>
+        function Alerta() {
+            var conteudo = document.getElementById('name').value;
+            alert(conteudo);
+        }
+    </script>
 
 </head>
 <body> 
@@ -24,7 +30,8 @@
             <div class="name-div">
                 <label for="name" class="label">Nome completo</label>
                 <input type="text" placeholder="Name" id="name" name="name">
-                <button onclick="document.getElementById('name').value = 'paulo';" id="alterar">Alterar</button> 
+                <button onclick="document.getElementById('name').value = 'Paulo'" id="alterar">Alterar</button> 
+                <button onclick="Alerta()" id="alterar2">Alerta</button> 
             </div>
         </div>
         <div class="bio">
@@ -33,5 +40,4 @@
     </div>
 </body>
 </html>
-// outro botão com alerta - com o conteudo alteradp
 

@@ -42,8 +42,24 @@ body{
     font-size: 16px;
 }
 
+#alterar2{
+    background-color: #f08787;
+    color: #3d3d3d;
+    padding: 8px 16px;
+    outline: none;
+    margin-top: 16px;
+    border:none;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
 #alterar:hover{
     background-color: #a0cffd;
+    cursor: pointer;
+}
+
+#alterar2:hover{
+    background-color: #fda0a0;
     cursor: pointer;
 }
 
