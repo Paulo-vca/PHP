@@ -13,6 +13,8 @@ body{
     box-sizing: border-box;
 }
 
+
+
 .strip{
     height: 16px;
     width: 100%;
@@ -22,17 +24,9 @@ body{
     background-color: #8EC5FC;
 } 
 
-.avatar{
-    margin: 16px;
-    border-radius: 8px;
-}
 
-.bio{
-    margin: 0px 32px 16px;
-}
-
-#alterar{
-    background-color: #8EC5FC;
+#calcular{
+    background-color: #f5fc8e;
     color: #3d3d3d;
     padding: 8px 16px;
     outline: none;
@@ -42,7 +36,7 @@ body{
     font-size: 16px;
 }
 
-#alterar2{
+#almentar{
     background-color: #f08787;
     color: #3d3d3d;
     padding: 8px 16px;
@@ -53,34 +47,44 @@ body{
     font-size: 16px;
 }
 
-#alterar:hover{
-    background-color: #a0cffd;
-    cursor: pointer;
+#reduzir{
+    background-color: #adf087;
+    color: #3d3d3d;
+    padding: 8px 16px;
+    outline: none;
+    margin-top: 16px;
+    border:none;
+    border-radius: 8px;
+    font-size: 16px;
 }
 
-#alterar2:hover{
-    background-color: #fda0a0;
-    cursor: pointer;
+#mudartema{
+    background-color: #ffffff;
+    color: #3d3d3d;
+    padding: 8px 16px;
+    outline: none;
+    margin-top: 16px;
+    border:none;
+    border-radius: 8px;
+    font-size: 16px;
 }
 
-.profile-row{
-    display: flex;
-}
 
-.name-div{
-    margin: 32px;
+.div_footer{
+    
+    margin-top: 8px;
 }
 
 input{
-    width: 500px;
-    height: 24px;
-    font-size: 24px;
-    border-radius: 8px;
+    width: 200px;
+    height: 2px;
+    font-size: 14px;
+    border-radius: 5px;
     padding: 16px;
 }
 
 .card{
-    width: 800px;
+    width: 750px;
     height: 400px;
     background: rgba(255, 255, 255, 0.36);
     border-radius: 16px 16px 0px 16px;
