@@ -15,7 +15,7 @@ body{
 
 .strip{
     height: 16px;
-    width: 100%;
+    width: 100%; 
     border-radius: 16px 16px 0px 0px;
     background-image: repeating-linear-gradient(-45deg, #000000 0, #000000 10px, transparent 0, transparent 50%);
     background-size: 59px 59px;

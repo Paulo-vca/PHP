@@ -9,40 +9,47 @@
     <title>Calculadora</title>
 </head>
 <body>
-    <div class="card">
+    <di class="card">
         <div class="strip"></div>
-        <div class="profile-row">
-            <div class="name-div">
-                <input type="number" placeholder="Selecione um número" id="namber1" name="numero">
-                <label for="Operações: ">Operações</label> 
-                        <select id="estados">              
-                            <option value="mais"> + </option>
-                            <option value="subtracao"> - </option>
-                            <option value="multiplicacao"> * </option>
-                            <option value="divisao"> / </option>
-                        </select>
-                <input type="number" placeholder="Selecione um número" id="namber2" name="numero">
-
+            <div class="container">
+                <div class="div0">
+                    <div>
+                        <input type="number" placeholder="Selecione um número" id="namber1" name="numero">
+                                <select id="op">              
+                                    <option value="somar"> + </option>
+                                    <option value="subtracao"> - </option>
+                                    <option value="multiplicacao"> * </option>
+                                    <option value="divisao"> / </option>
+                                </select> 
+                        <input type="number" placeholder="Selecione um número" id="namber2" name="numero">
+                    </div>
+                </div>
 
                 <div class="div1">
-                    <button onclick=" " id="calcular">Calcular</button> 
+                    <div>
+                        <button onclick="calculadora()" id="calcular">Calcular</button> 
+                    </div>
                 </div> 
 
                 
                 <div class="div2">
-                    <input type="text" placeholder=resultado> 
+                    <div>
+                        <input type="namber" placeholder=resultado id="resultado"> 
+                    </div>
                 </div> 
 
-                <div class="div_footer">
-                    <div class="div3">
-                        <button onclick=" " id="almentar"> Almentar </button>
-                        <button onclick=" " id="reduzir"> Reduzir </button>
-                        <button onclick=" " id="mudartema"> Alterar tema </button> 
-                    </div> 
-                </div>
+            
+                <div class="div3">
+                    <div><button onclick=" " id="almentar"> Almentar </button></div>
+
+                    <div><button onclick=" " id="reduzir"> Reduzir </button></div>
+
+                    <div><button onclick=" " id="mudartema"> Alterar tema </button></div>
+                </div> 
+                
 
             </div>
-        </div>
+        
         
     </div>
     

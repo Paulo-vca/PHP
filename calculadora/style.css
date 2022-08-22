@@ -10,10 +10,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: center; 
-    box-sizing: border-box;
+    box-sizing: border-box; 
 }
-
-
 
 .strip{
     height: 16px;
@@ -24,11 +22,27 @@ body{
     background-color: #8EC5FC;
 } 
 
+.container{
+    padding: 15px;
+    margin: 30px;
+}
+
+.div0 ,.div1 ,.div2 ,.div3{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+
+}
+.div3{
+    justify-content: space-around;
+}
+
+
 
 #calcular{
     background-color: #f5fc8e;
-    color: #3d3d3d;
-    padding: 8px 16px;
+    color: #000000;
+    padding: 10px 16px;
     outline: none;
     margin-top: 16px;
     border:none;
@@ -38,8 +52,8 @@ body{
 
 #almentar{
     background-color: #f08787;
-    color: #3d3d3d;
-    padding: 8px 16px;
+    color: #000000;
+    padding: 10px 16px;
     outline: none;
     margin-top: 16px;
     border:none;
@@ -49,8 +63,8 @@ body{
 
 #reduzir{
     background-color: #adf087;
-    color: #3d3d3d;
-    padding: 8px 16px;
+    color: #000000;
+    padding: 10px 16px;
     outline: none;
     margin-top: 16px;
     border:none;
@@ -59,9 +73,9 @@ body{
 }
 
 #mudartema{
-    background-color: #ffffff;
-    color: #3d3d3d;
-    padding: 8px 16px;
+    background-color: #88c7fa;
+    color: #000000;
+    padding: 10px 16px;
     outline: none;
     margin-top: 16px;
     border:none;
@@ -69,10 +83,31 @@ body{
     font-size: 16px;
 }
 
+#calcular:hover{
+    cursor: pointer;
+    background-color: #f2fd5a;
 
-.div_footer{
-    
-    margin-top: 8px;
+}
+#almentar:hover{
+    cursor: pointer;
+    background-color: #f36a6a;
+
+}
+#reduzir:hover{
+    cursor: pointer;
+    background-color: #8fe95b;
+
+}
+#mudartema:hover{
+    cursor: pointer;
+    background-color: #69bafd;
+
+}
+select{
+    width: 40px;
+    height: 25px;
+    font-size: 20px;
+
 }
 
 input{
@@ -92,4 +127,5 @@ input{
     backdrop-filter: blur(6.6px);
     -webkit-backdrop-filter: blur(6.6px);
     border: 1px solid rgba(255, 255, 255, 0.63);
+    align-items: center;
 }
