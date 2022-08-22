@@ -50,7 +50,7 @@ body{
     font-size: 16px;
 }
 
-#almentar{
+#aumentar{
     background-color: #f08787;
     color: #000000;
     padding: 10px 16px;
@@ -88,7 +88,7 @@ body{
     background-color: #f2fd5a;
 
 }
-#almentar:hover{
+#aumentar:hover{
     cursor: pointer;
     background-color: #f36a6a;
 
